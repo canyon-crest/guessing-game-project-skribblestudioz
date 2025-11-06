@@ -89,7 +89,7 @@ function play(){
     
     msg.textContent = username + ", guess a number from 1 to " + level;
     answer = Math.floor(Math.random()*level) + 1;
-    guess.placeholder = answer;
+    guess.placeholder = "Enter a guess";
 }
 
 function makeGuess(){
